@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Окт 23 2022 г., 20:15
+-- Время создания: Окт 24 2022 г., 11:58
 -- Версия сервера: 5.7.39
 -- Версия PHP: 8.1.9
 
@@ -423,6 +423,52 @@ ALTER TABLE `Services`
 --
 ALTER TABLE `Tickets`
   ADD PRIMARY KEY (`ID_Ticket`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `Clients`
+--
+ALTER TABLE `Clients`
+  MODIFY `ID_Clients` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT для таблицы `Employees`
+--
+ALTER TABLE `Employees`
+  MODIFY `ID_Employees` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT для таблицы `Hotel`
+--
+ALTER TABLE `Hotel`
+  MODIFY `ID_Hotel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT для таблицы `Post`
+--
+ALTER TABLE `Post`
+  MODIFY `ID_Post` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT для таблицы `Recreation`
+--
+ALTER TABLE `Recreation`
+  MODIFY `ID_Recreation` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+
+--
+-- AUTO_INCREMENT для таблицы `Services`
+--
+ALTER TABLE `Services`
+  MODIFY `ID_Services` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT для таблицы `Tickets`
+--
+ALTER TABLE `Tickets`
+  MODIFY `ID_Ticket` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
