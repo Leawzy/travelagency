@@ -14,5 +14,5 @@ mysqli_query($db, "UPDATE `Employees` SET `FullName` = '$fullname', `Age` = '$ag
                      `Adress` = '$adress', `PhoneNumber` = '$phonenumber', `PasportData` = '$pasportdata', `ID_Post` = '$idpost'
                      WHERE `ID_Employees` = '$employees_id'");
 
-header('Location: ../layouts/admin_emp.php');
+header('Location: ../layouts/employees.php');
 

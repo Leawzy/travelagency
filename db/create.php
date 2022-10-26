@@ -13,4 +13,4 @@ mysqli_query($db, "INSERT INTO `Employees` (`FullName`, `Age`, `Gender`, `Adress
                        `PasportData`, `ID_Post`) VALUES ('$fullname', 
                        '$age', '$gender', '$adress', '$phonenumber', '$pasportdata', '$idpost')");
 
-header('Location: ../layouts/admin_emp.php');
+header('Location: ../layouts/employees.php');

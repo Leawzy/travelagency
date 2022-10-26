@@ -13,8 +13,18 @@
     <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
         <a href="layouts/employees.php"
            class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Employees</a>
-        <a href="layouts/admin_emp.php"
-           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Admin Panel</a>
+        <a href="clients.php"
+           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Clients</a>
+        <a href="hotel.php"
+           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Hotel</a>
+        <a href="post.php"
+           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Post</a>
+        <a href="recreation.php"
+           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Recreation</a>
+        <a href="Services.php"
+           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Services</a>
+        <a href="Tickets.php"
+           class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Tickets</a>
         <a href="layouts/post_name.php"
            class="p-2 lg:px-4 md:mx-2 rounded hover:bg-red-500 hover:text-slate-50 transition-colors duration-300">Inner Join</a>
     </div>
